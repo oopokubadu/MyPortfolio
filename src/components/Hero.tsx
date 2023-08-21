@@ -7,8 +7,10 @@ function Hero() {
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="mt-5 max-w-5xl text-left">
             <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl">
-              Fuck you Okat, I'm tired and im stressed, can we continue
-              tomorrow. Fuck the shit out
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
             </h1>
           </div>
 
