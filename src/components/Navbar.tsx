@@ -5,7 +5,7 @@ import { BiMenu } from "react-icons/bi";
 function Navbar() {
   return (
     <div>
-      <nav className="relative max-w-[85rem] mx-auto  z-20 flex shrink-0 items-center space-x-2 bg-white py-6 px-4 sm:px-8">
+      <nav className="relative max-w-7xl mx-auto  z-20 flex shrink-0 items-center space-x-2 bg-white py-6 px-4 sm:px-8">
         <a href="/" className="z-10">
           {/* Logo */}
           <div className="h-9 text-heading">
