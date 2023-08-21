@@ -23,7 +23,7 @@ function Hero() {
       <div className="relative py-12 bg-white sm:py-16 lg:py-20 xl:py-24">
         <div className="bg-[#F3F5F6]">
           <div className=" px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-            <div className="flex h-[30rem] flex-wrap justify-between">
+            <div className="flex lg:h-[20rem] flex-wrap justify-between">
               <div className="max-w-md  lg:-mt-[3rem] mx-auto text-center  lg:mx-0 lg:text-left">
                 <p className="mt-4 text-7xl font-medium text-[#FF7D34] lg:mt-6">
                   *
@@ -56,6 +56,22 @@ function Hero() {
                 </div>
               </div>
             </div>
+
+            <section className="py-12 sm:py-16 lg:py-20">
+            <div className="mx-auto max-w-7xl">
+                <div className="xl:flex xl:items-center xl:justify-between">
+                    
+
+                    <div className="grid items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8 lg:grid-cols-5 lg:gap-x-8">
+                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-vertex.svg" alt="" />
+                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-squarestone.svg" alt="" />
+                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-martino.svg" alt="" />
+                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-waverio.svg" alt="" />
+                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-vertex.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
           </div>
         </div>
       </div>
