@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <div>
-      <div className="relative overflow-hidden">
+      <div className="bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="mt-5 max-w-5xl text-left">
             <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl">
@@ -20,7 +20,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="relative py-12 bg-white sm:py-16 lg:py-20 xl:py-24">
+      <div className="relative bg-white pt-12 sm:pt-16 lg:pt-20 xl:pt-24">
         <div className="bg-[#F3F5F6]">
           <div className="mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="flex lg:h-[20rem] flex-wrap justify-between">
