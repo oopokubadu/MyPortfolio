@@ -7,7 +7,7 @@ function WorkWithUs() {
         <div className="bg-[#EAE9E9] rounded-[3rem] mx-auto max-w-7xl space-y-8 md:space-y-20">
           {/* 1/3 and 2/3 */}
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:p-8">
-            <div className="flex flex-col rounded-3xl py-8 pl-8 ">
+            <div className="flex flex-col rounded-3xl pt-8 sm:py-8 pl-3 sm:pl-8 ">
               <h2 className="text-2xl font-semibold text-gradient gradient-peach md:text-3xl">
                 Why work with us & how we work?
               </h2>
@@ -85,7 +85,7 @@ function WorkWithUs() {
                 </div>
               </div>
             </div>
-            <div className="rounded-3xl p-8 md:col-span-2">
+            <div className="rounded-3xl p-4 sm:p-8 md:col-span-2">
               <div className="flex flex-wrap justify-between">
                 <div className="rounded-[2rem] block lg:max-w-[17rem] p-6 bg-white hover:bg-gray-100">
                   <h5 className="mb-2 text-md font-bold tracking-tight text-gray-900">

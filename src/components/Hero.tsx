@@ -42,7 +42,7 @@ function Hero() {
               <div className=" flex flex-col items-start md:flex-row mx-auto lg:mx-0 gap-10">
                 <div className="max-w-xl mx-auto ">
                   <img
-                    className="h-auto md:mt-[5.8rem] max-w-sm rounded-3xl lg:-mt-[3rem]"
+                    className="h-auto mt-6 md:mt-[5.8rem] max-w-sm rounded-3xl lg:-mt-[3rem]"
                     src="https://placehold.co/300x350"
                     alt=""
                   />
