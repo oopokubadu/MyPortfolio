@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from "./Carousel";
 
 function WorkWithUs() {
   return (
@@ -127,11 +128,7 @@ function WorkWithUs() {
                 </div>
               </div>
 
-              <img
-                className="mt-6"
-                src="https://i.imgur.com/5JzWVvz.png"
-                alt=""
-              />
+           <Carousel/>
             </div>
           </div>
         </div>
