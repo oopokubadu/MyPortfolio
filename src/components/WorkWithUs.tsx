@@ -39,19 +39,15 @@ function WorkWithUs() {
                   </div>
 
                   <h6 className="mb-2 font-semibold leading-5">
-                    The quick fox
+                    Why Work With Us
                   </h6>
-                  <p className="mb-3 text-sm text-gray-900">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium rem aperiam.
+                  <p className="mb-3 text-sm lg:text-xs text-gray-900">
+                    We have an ‘attention-to-detail’ policy that ensures that
+                    our services are top-notch. You’ll appreciate our expertise
+                    in crafting digital solutions that resonate with your target
+                    audience. We're here to help you make a lasting impact in
+                    the market!
                   </p>
-                  <a
-                    href="/"
-                    aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                  >
-                    Learn more
-                  </a>
                 </div>
                 <div className="m-2 md:m-1">
                   <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
@@ -69,25 +65,19 @@ function WorkWithUs() {
                       />
                     </svg>
                   </div>
-                  <h6 className="mb-2 font-semibold leading-5">
-                    The quick fox
-                  </h6>
-                  <p className="mb-3 text-sm text-gray-900">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium rem aperiam.
+                  <h6 className="mb-2 font-semibold leading-5">How We Work</h6>
+                  <p className="mb-3 text-sm lg:text-xs text-gray-900">
+                    We understand the importance of collaboration and will work
+                    closely with you to ensure your vision comes to life. Our
+                    team of experts will bring your ideas to the forefront,
+                    creating a seamless and successful partnership. Let's make
+                    waves together!
                   </p>
-                  <a
-                    href="/"
-                    aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                  >
-                    Learn more
-                  </a>
                 </div>
               </div>
             </div>
             <div className="rounded-3xl p-4 sm:p-8 md:col-span-2">
-              <div className="flex flex-wrap justify-between">
+              <div className="flex flex-wrap lg:flex-nowrap justify-between">
                 <div className="rounded-[2rem] block lg:max-w-[17rem] p-6 bg-white hover:bg-gray-100">
                   <h5 className="mb-2 text-md font-bold tracking-tight text-gray-900">
                     Evolving ideas into their final form through the development
@@ -128,7 +118,7 @@ function WorkWithUs() {
                 </div>
               </div>
 
-           <Carousel/>
+              <Carousel />
             </div>
           </div>
         </div>

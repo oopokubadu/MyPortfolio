@@ -7,8 +7,9 @@ function Hero() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="mt-5 max-w-5xl text-left">
             <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Consider us your digital storytellers. With us you get end-to-end
+              product development and marketing expertise. Join us as we weave
+              tales of success and explore the rich tapestry of innovation.
             </h1>
           </div>
 
@@ -30,13 +31,13 @@ function Hero() {
                 </p>
                 <p className="text-lg font-medium text-gray-900">Branding</p>
                 <p className="mt-4 text-lg font-medium text-gray-900 lg:mt-6">
-                  Digital Experience
+                  Product Development
                 </p>
                 <p className="mt-4 text-lg font-medium text-gray-900 lg:mt-6">
-                  Media Planning
+                 Marketing
                 </p>
                 <p className="mt-4 text-lg font-medium text-gray-900 lg:mt-6">
-                  Advertising
+                Photography/Videography:
                 </p>
               </div>
               <div className=" flex flex-col items-start md:flex-row mx-auto lg:mx-0 gap-10">
@@ -58,18 +59,38 @@ function Hero() {
             </div>
 
             <section className="py-12 sm:py-16 lg:py-20">
-            <div className="mx-auto max-w-7xl">
+              <div className="mx-auto max-w-7xl">
                 <div className="xl:flex xl:items-center xl:justify-between">
-                    <div className="grid items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8 lg:grid-cols-5 lg:gap-x-8">
-                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-vertex.svg" alt="" />
-                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-squarestone.svg" alt="" />
-                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-martino.svg" alt="" />
-                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-waverio.svg" alt="" />
-                        <img className="object-contain w-auto mx-auto h-9" src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-vertex.svg" alt="" />
-                    </div>
+                  <div className="grid items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8 lg:grid-cols-5 lg:gap-x-8">
+                    <img
+                      className="object-contain w-auto mx-auto h-9"
+                      src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-vertex.svg"
+                      alt=""
+                    />
+                    <img
+                      className="object-contain w-auto mx-auto h-9"
+                      src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-squarestone.svg"
+                      alt=""
+                    />
+                    <img
+                      className="object-contain w-auto mx-auto h-9"
+                      src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-martino.svg"
+                      alt=""
+                    />
+                    <img
+                      className="object-contain w-auto mx-auto h-9"
+                      src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-waverio.svg"
+                      alt=""
+                    />
+                    <img
+                      className="object-contain w-auto mx-auto h-9"
+                      src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/1/logo-vertex.svg"
+                      alt=""
+                    />
+                  </div>
                 </div>
-            </div>
-        </section>
+              </div>
+            </section>
           </div>
         </div>
       </div>
