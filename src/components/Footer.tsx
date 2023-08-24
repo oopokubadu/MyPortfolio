@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../assets/Logo/yellalogo.png"
 
 function Footer() {
   return (
@@ -38,7 +39,7 @@ function Footer() {
                   aria-label="Article"
                   className="inline-block  text-xl font-bold leading-5 text-black transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
-                  Yella Agency
+                 <img className="h-9" src={Logo} alt="" /> 
                 </a>
               </div>
               <p className="mb-3 text-sm text-left lg:text-center text-gray-700">

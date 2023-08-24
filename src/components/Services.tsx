@@ -6,9 +6,9 @@ import { BiSolidMinusCircle } from "react-icons/bi";
 function Services() {
   return (
     <div className="bg-[#F3F5F6]">
-      <div className="w-full px-4 pt-16">
+      <div className="w-full px-4">
         <div className="mx-auto w-full max-w-5xl rounded-2xl p-2">
-          <div className="flex my-4 py-14 border-b-2 flex-wrap justify-between items-center">
+          <div className="flex my-4 border-b-2 flex-wrap justify-between items-center">
             <h1 className="my-1 text-3xl font-semibold">Our Services</h1>
             <p className="my-1 text-sm max-w-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
