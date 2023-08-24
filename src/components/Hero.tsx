@@ -15,8 +15,7 @@ function Hero() {
 
           <div className="mt-5 max-w-3xl text-left ">
             <p className="text-lg text-gray-600">
-              Preline is a large open-source project, crafted with Tailwind CSS
-              framework by Hmlstream.
+              “Building products and Marketing magic, all in on place”
             </p>
           </div>
         </div>
@@ -34,10 +33,10 @@ function Hero() {
                   Product Development
                 </p>
                 <p className="mt-4 text-lg font-medium text-gray-900 lg:mt-6">
-                 Marketing
+                  Marketing
                 </p>
                 <p className="mt-4 text-lg font-medium text-gray-900 lg:mt-6">
-                Photography/Videography:
+                  Photography/Videography:
                 </p>
               </div>
               <div className=" flex flex-col items-start md:flex-row mx-auto lg:mx-0 gap-10">

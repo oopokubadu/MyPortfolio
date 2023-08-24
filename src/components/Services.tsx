@@ -1,5 +1,5 @@
 import React from "react";
-import { Disclosure, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { BiSolidMinusCircle } from "react-icons/bi";
 
@@ -31,20 +31,12 @@ function Services() {
                     <AiOutlinePlusCircle className="text-[#FF7D34] text-5xl" />
                   )}
                 </Disclosure.Button>
-                <Transition
-        enter="transition duration-100 ease-out"
-        enterFrom="transform scale-95 opacity-0"
-        enterTo="transform scale-100 opacity-100"
-        leave="transition duration-75 ease-out"
-        leaveFrom="transform scale-100 opacity-100"
-        leaveTo="transform scale-95 opacity-0"
-      >
+
                 <Disclosure.Panel className=" pt-4 pb-2 text-sm text-gray-500">
                   We create captivating brand identities that leave a lasting
                   impression, helping your business stand out in a crowded
                   marketplace.
                 </Disclosure.Panel>
-                </Transition>
               </>
             )}
           </Disclosure>

@@ -18,15 +18,15 @@ function Team() {
             accusantium doloremque laudantium.
           </p>
         </div>
-        <div className="  mx-auto">
+        <div className="mx-auto">
           <Swiper
-            modules={[Navigation, Autoplay, Pagination]}
+            modules={[Navigation, Autoplay]}
             loop={true}
             autoplay={{
               delay: 10000,
               disableOnInteraction: false,
             }}
-            pagination={{ clickable: true }}
+            // pagination={{ clickable: true }}
             breakpoints={{
               0: {
                 spaceBetween: 10,
