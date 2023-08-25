@@ -9,16 +9,15 @@ function Team() {
   return (
     <div className="bg-[#F3F5F6]">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="mx-auto mb-10 lg:max-w-2xl sm:text-center">
-          <h1 className="inline-block px-3 py-px mb-4 text-3xl font-semibold">
-            None of us is as smart as all of us
+        <div className="px-2 mx-auto mb-10 lg:max-w-2xl sm:text-center">
+          <h1 className="inline-block py-px mb-4 text-3xl font-semibold">
+            The A-Team
           </h1>
           <p className="text-sm text-gray-700">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium.
+            “Turning ideas into reality with efficiency and finesse”
           </p>
         </div>
-        <div className="mx-auto">
+        <div className="mx-auto px-2">
           <Swiper
             modules={[Navigation, Autoplay]}
             loop={true}

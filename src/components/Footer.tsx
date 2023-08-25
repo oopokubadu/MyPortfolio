@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="bg-[#F3F5F6]">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-6xl md:px-24 lg:px-8 lg:py-20">
-        <div className="grid justify-center gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+        <div className="grid justify-center gap-8 md:grid-cols-2 lg:grid-cols-3 sm:max-w-lg sm:mx-auto lg:max-w-full">
           <div className="flex lg:justify-center lg:border-r-2">
             <div>
               <div className="mb-2">
