@@ -1,23 +1,16 @@
 import React from "react";
-import { Parallax, useParallax } from "react-scroll-parallax";
 
-const Hero = () => {
-  const parallaxEasing = useParallax<HTMLDivElement>({
-    easing: "easeOutQuad",
-    translateX: [-340, 100],
-  });
+function Hero() {
   return (
     <div>
       <div className="bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="mt-5 max-w-5xl text-left">
-          <div ref={parallaxEasing.ref} className="parallaxEasing">
-            <h1  className="block font-bold text-gray-800 text-4xl md:text-5xl">
+            <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl">
               Consider us your digital storytellers. With us you get end-to-end
               product development and marketing expertise. Join us as we weave
               tales of success and explore the rich tapestry of innovation.
             </h1>
-            </div>
           </div>
 
           <div className="mt-5 max-w-3xl text-left ">
@@ -46,7 +39,6 @@ const Hero = () => {
                   Photography/Videography:
                 </p>
               </div>
-
               <div className=" flex flex-col items-start md:flex-row mx-auto lg:mx-0 gap-10">
                 <div className="max-w-xl mx-auto ">
                   <img
