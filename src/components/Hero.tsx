@@ -24,20 +24,34 @@ function Hero() {
         <div className="bg-[#F3F5F6]">
           <div className="mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="flex lg:h-[20rem] flex-wrap justify-between">
-              <div className="max-w-md  lg:-mt-[3rem] mx-auto text-center  lg:mx-0 lg:text-left">
+              <div className="max-w-md flex flex-col  lg:-mt-[3rem] mx-auto text-center  lg:mx-0 lg:text-left">
                 <p className="mt-4 text-7xl font-medium text-[#FF7D34] lg:mt-6">
                   *
                 </p>
-                <p className="text-lg font-medium text-gray-900">Branding</p>
-                <p className="mt-4 text-lg font-medium text-gray-900 lg:mt-6">
+                <a
+                  href="#services"
+                  className="text-lg font-medium text-gray-900"
+                >
+                  Branding
+                </a>
+                <a
+                  href="#services"
+                  className="mt-4 text-lg font-medium text-gray-900 lg:mt-6"
+                >
                   Product Development
-                </p>
-                <p className="mt-4 text-lg font-medium text-gray-900 lg:mt-6">
+                </a>
+                <a
+                  href="#services"
+                  className="mt-4 text-lg font-medium text-gray-900 lg:mt-6"
+                >
                   Marketing
-                </p>
-                <p className="mt-4 text-lg font-medium text-gray-900 lg:mt-6">
-                  Photography/Videography:
-                </p>
+                </a>
+                <a
+                  href="#services"
+                  className="mt-4 text-lg font-medium text-gray-900 lg:mt-6"
+                >
+                  Photography/Videography
+                </a>
               </div>
               <div className=" flex flex-col items-start md:flex-row mx-auto lg:mx-0 gap-10">
                 <div className="max-w-xl mx-auto ">

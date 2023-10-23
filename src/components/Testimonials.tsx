@@ -2,7 +2,7 @@ import React from "react";
 
 function Testimonials() {
   return (
-    <div className="bg-[#F3F5F6]">
+    <div className="bg-[#F3F5F6]" id="client">
       <section className="md:mb-[60px] lg:mb-0">
         <div className="px-4 mx-auto rounded-md max-w-3xl sm:px-6 lg:px-8">
           <p className="text-3xl lg:text-5xl text-center font-semibold text-[#223247]">

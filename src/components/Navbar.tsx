@@ -16,25 +16,25 @@ function Navbar() {
         <div className="flex-1">
           <div className="absolute inset-y-0 inset-x-0 hidden items-center justify-center space-x-1.5 px-4 lg:flex">
             <a
-              href="#"
+              href="#work"
               className="inline-flex cursor-pointer items-center justify-center rounded-xl border-2 border-transparent bg-transparent px-4 py-2.5 text-base font-normal text-text hover:bg-heading/5 hover:text-heading focus:bg-heading/5 focus:outline-none focus:ring-2 focus:ring-heading/80 focus:ring-offset-0 disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-text"
             >
               Work
             </a>
             <a
-              href="#"
+              href="#services"
               className="inline-flex cursor-pointer items-center justify-center rounded-xl border-2 border-transparent bg-transparent px-4 py-2.5 text-base font-normal text-text hover:bg-heading/5 hover:text-heading focus:bg-heading/5 focus:outline-none focus:ring-2 focus:ring-heading/80 focus:ring-offset-0 disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-text"
             >
               Services
             </a>
             <a
-              href="#"
+              href="#ateam"
               className="inline-flex cursor-pointer items-center justify-center rounded-xl border-2 border-transparent bg-transparent px-4 py-2.5 text-base font-normal text-text hover:bg-heading/5 hover:text-heading focus:bg-heading/5 focus:outline-none focus:ring-2 focus:ring-heading/80 focus:ring-offset-0 disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-text"
             >
-              About
+              A-Team
             </a>
             <a
-              href="#"
+              href="#client"
               className="inline-flex cursor-pointer items-center justify-center rounded-xl border-2 border-transparent bg-transparent px-4 py-2.5 text-base font-normal text-text hover:bg-heading/5 hover:text-heading focus:bg-heading/5 focus:outline-none focus:ring-2 focus:ring-heading/80 focus:ring-offset-0 disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-text"
             >
               Client
@@ -70,7 +70,7 @@ function Navbar() {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href="#"
+                    href="#work"
                     className={`${
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
@@ -82,7 +82,7 @@ function Navbar() {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href="#"
+                    href="#services"
                     className={`${
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
@@ -94,19 +94,19 @@ function Navbar() {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href="#"
+                    href="#ateam"
                     className={`${
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
                   >
-                    About
+                    A-Team
                   </a>
                 )}
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href="#"
+                    href="#client"
                     className={`${
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}

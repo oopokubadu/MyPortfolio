@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 function WorkWithUs() {
   return (
-    <div className="bg-[#F3F5F6]">
+    <div className="bg-[#F3F5F6]" id="work">
       <section className="p-6 md:p-10 ">
         <div className="bg-[#EAE9E9] rounded-[3rem] mx-auto max-w-7xl space-y-8 md:space-y-20">
           {/* 1/3 and 2/3 */}

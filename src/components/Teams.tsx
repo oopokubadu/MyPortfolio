@@ -1,13 +1,15 @@
 import React from "react";
-import { Navigation, Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/autoplay";
 
-function Team() {
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+function Teams() {
   return (
-    <div className="bg-[#F3F5F6]">
+    <div className="bg-[#F3F5F6]" id="ateam">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="px-2 mx-auto mb-10 lg:max-w-2xl sm:text-center">
           <h1 className="inline-block py-px mb-4 text-3xl font-semibold">
@@ -178,4 +180,4 @@ function Team() {
   );
 }
 
-export default Team;
+export default Teams;
